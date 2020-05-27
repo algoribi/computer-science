@@ -60,7 +60,7 @@
   - 문맥 교환 시간이 짧다.
   - 스레드 간에 커널의 도움 없이 통신이 가능하다.
 
-![thread](./img/thread_1.JPG)
+<img src="img/thread_1.JPG" width="288" height="422">
 
 </br>
 
