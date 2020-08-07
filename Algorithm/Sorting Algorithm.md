@@ -10,7 +10,7 @@
   - Avg : O(n^2)
   - Wast : **O(n^2)**
 
-  **[C++ Code](https://github.com/algoribi/computer-science/blob/master/Algorithm/code/Insertion%20Sort.cpp)**
+  **[C++ Code](https://github.com/algoribi/computer-science/blob/master/Algorithm/code/Selection%20Sort.cpp)**
 
 </br>
 
