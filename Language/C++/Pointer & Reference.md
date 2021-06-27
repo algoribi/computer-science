@@ -50,7 +50,7 @@
 
 </br>
 
-### 결론
+## 결론
 사실 레퍼런스와 포인터의 작동을 어셈블리어로 변환하면 내부적인 작동의 차이점이 없음을 알 수 있다. 다만 둘의 특징에서 보았듯이 레퍼런스는 포인터를 사용할 때 생기는 위험한 상황들을 미연에 방지하여 포인터로 인해 발생할 수 있는 문제들을 최소화하기 위해 만든 개념이라고 볼 수 있다.
  실제로 [C++ FAQ](https://isocpp.org/wiki/faq/references)의 레퍼런스 항목에서
 > When should I use references, and when should I use pointers?
