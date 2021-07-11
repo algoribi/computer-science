@@ -2,7 +2,7 @@
 
 > 프로그램에 필요한 알고리즘, 컨테이너, 함수자, 반복자를 **Template**으로 제공하는 라이브러리이다. C++ template을 통해 제네릭(generic)한 프로그래밍이 가능하다.
 
-<img src="/img/template.PNG"></img>
+<img src="/img/template.PNG">
 
 - STL의 대표적인 컨테이너인 vector도 template를 통해 만들어진 것을 볼 수 있다.
 
