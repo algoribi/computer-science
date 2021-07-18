@@ -19,3 +19,12 @@
 - 데이터가 많은 경우 unordered_map이 map보다 성능 면에서 유리하다.
 - 문자열을 key로 사용하는 경우 문자열의 길이가 길어질수록 unordered_map의 성능이 map보다 떨어진다. (문자열 비교 함수의 성능이 문자열 전체를 hashing 하는 것에 비해 우수하기 때문)
 - key 값의 분포가 고르지 못한 경우 map의 성능이 저하될 수 있다. (self-balancing)
+
+### 번외 :: 언제 어떤 컨테이너를 사용해야 할까?
+
+- 데이터 존재 여부만 궁금할 때: set
+  - 중복 데이터 허용한다면: multiset
+- 데이터에 대응되는 데이터를 저장하고 싶을 경우: map
+  - 중복 데이터 허용한다면: multimap
+- 속도가 중요할 때: unordered_set, unordered_map
+  - 단, collision 가능성이 있을 땐 크기에 주의!
